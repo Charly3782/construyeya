@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CONSTRUYEYA | Construcción y Remodelación en la Región Metropolitana</title>
+  <style>
+    :root {
+      --black:#111;
+      --gray:#666;
+      --light:#f5f5f5;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Montserrat, Arial, sans-serif;
+      color:var(--black);
+      line-height:1.5;
+      background:#fff;
+    }
+    header{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding:16px 24px;
+      border-bottom:1px solid #eaeaea;
+    }
+    header .logo{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      font-weight:700;
+      letter-spacing:1px;
+    }
+    header .logo img{height:42px}
+    header a{
+      text-decoration:none;
+      color:#fff;
+      background:var(--black);
+      padding:10px 14px;
+      border-radius:6px;
+      font-weight:600;
+    }
+    .hero{
+      padding:56px 24px;
+      max-width:1200px;
+      margin:auto;
+      display:grid;
+      grid-template-columns:1.1fr 0.9fr;
+      gap:32px;
+      align-items:center;
+    }
+    .hero h1{font-size:42px;margin:0 0 12px}
+    .hero p{color:var(--gray);font-size:18px;margin:0 0 20px}
+    .hero .cta{
+      display:inline-block;
+      background:var(--black);
+      color:#fff;
+      padding:14px 18px;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:700;
+    }
+    .hero .bullets{margin-top:16px;color:var(--gray)}
+    .hero .image{
+      background:#ddd;
+      height:360px;
+      border-radius:12px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#777;
+      font-weight:600;
+    }
+    section{
+      padding:48px 24px;
+      max-width:1200px;
+      margin:auto;
+    }
+    h2{font-size:32px;margin:0 0 16px}
+    .services{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:16px;
+    }
+    .card{
+      border:1px solid #eee;
+      border-radius:12px;
+      padding:18px;
+    }
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+      gap:16px;
+    }
+    .gallery .ph{
+      background:#e6e6e6;
+      height:200px;
+      border-radius:10px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#777;
+      font-weight:600;
+    }
+    .why{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:16px;
+    }
+    .final{
+      background:var(--light);
+      border-radius:16px;
+      padding:32px;
+      text-align:center;
+    }
+    footer{
+      padding:24px;
+      text-align:center;
+      color:#777;
+      border-top:1px solid #eee;
+    }
+    @media(max-width:900px){
+      .hero{grid-template-columns:1fr}
+      .hero h1{font-size:34px}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <!-- Reemplazar src por el logo final -->
+    <!-- Logo pendiente de cargar -->
+    CONSTRUYEYA
+  </div>
+  <div style="display:flex; gap:12px; align-items:center;">
+    <span style="font-weight:600; color:#666;">Construyeya.cl</span>
+    <a href="https://wa.me/56968578761" target="_blank">Cotizar por WhatsApp</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div>
+    <h1>Construcción y Estructuras Metálicas Profesionales</h1>
+    <p>Más de 20 años de experiencia ejecutando obras reales, seguras y bien hechas en la Región Metropolitana.</p>
+    <a class="cta" href="https://wa.me/56968578761" target="_blank">Hablar por WhatsApp</a>
+    <div class="bullets">✔ Mano de obra especializada &nbsp; ✔ Presupuestos claros &nbsp; ✔ Obras reales</div>
+  </div>
+  <!-- Imagen eliminada: solo se usarán fotos reales del proyecto -->
+</section>
+
+<section>
+  <h2>Servicios</h2>
+  <div class="services">
+    <div class="card">Estructuras metálicas</div>
+    <div class="card">Galpones</div>
+    <div class="card">Construcción y ampliaciones</div>
+    <div class="card">Tabiquería Metalcon</div>
+    <div class="card">Techumbres y cobertizos</div>
+    <div class="card">Remodelaciones</div>
+  </div>
+</section>
+
+<section>
+  <h2>Proyecto destacado: Galpón Padre Hurtado</h2>
+  <p>Fabricación y montaje de estructura metálica con perfiles de acero y soldadura especializada.</p>
+  <p><strong>Proyecto documentado exclusivamente con fotografías reales de obra.</strong></p>
+</section>
+
+<section>
+  <h2>Proyecto destacado: Departamentos de Contenedores – Peñaflor</h2>
+  <p>Desarrollo y habilitación de departamentos construidos en contenedores marítimos, incluyendo estructura, tabiquería interior, aislación, instalaciones y terminaciones.</p>
+
+  <div class="gallery">
+    <img src="contenedores-penaflor-exterior.jpg" alt="Contenedor elevado sobre apoyos – Peñaflor" style="width:100%; border-radius:12px;" />
+    <img src="contenedores-penaflor-interior.jpg" alt="Estructura interior contenedor con Metalcon – Peñaflor" style="width:100%; border-radius:12px;" />
+    <img src="contenedores-penaflor-exterior-2.jpg" alt="Vista lateral contenedor habitacional – Peñaflor" style="width:100%; border-radius:12px;" />
+  </div>
+
+  <p><strong>Imágenes reales del proyecto en distintas etapas de ejecución.</strong></p>
+</section>
+
+<section>
+  <h2>Proyecto destacado: Reparación de Techumbres</h2>
+  <p>Reparación y renovación de techumbres, incluyendo retiro de planchas deterioradas, refuerzo de estructura, instalación de aislación y montaje de nueva cubierta metálica.</p>
+
+  <div class="gallery">
+    <img src="reparacion-techumbre-proceso.jpg" alt="Proceso de reparación de techumbre con estructura expuesta" style="width:100%; border-radius:12px;" />
+    <img src="reparacion-techumbre-dano.jpg" alt="Retiro de planchas deterioradas en techumbre" style="width:100%; border-radius:12px;" />
+    <img src="reparacion-techumbre-terminada.jpg" alt="Techumbre metálica reparada y terminada" style="width:100%; border-radius:12px;" />
+  </div>
+
+  <p><strong>Imágenes reales del proyecto en distintas etapas: diagnóstico, reparación y terminación.</strong></p>
+</section>
+
+<section>
+  <h2>Proyecto destacado: Pintura Interior y Exterior</h2>
+  <p>Trabajos de pintura interior y exterior en vivienda, incluyendo protección de superficies, preparación de muros, aplicación de sellos y pintura final con terminaciones limpias y uniformes.</p>
+
+  <div class="gallery">
+    <img src="pintura-interior-proteccion.jpg" alt="Protección de ventanas y superficies antes de pintar" style="width:100%; border-radius:12px;" />
+    <img src="pintura-cielo-terminado.jpg" alt="Cielo interior terminado con iluminación empotrada" style="width:100%; border-radius:12px;" />
+    <img src="pintura-exterior-proceso.jpg" alt="Proceso de pintura exterior con andamios" style="width:100%; border-radius:12px;" />
+    <img src="pintura-exterior-detalle.jpg" alt="Detalle de terminaciones en pintura exterior" style="width:100%; border-radius:12px;" />
+    <img src="pintura-vivienda-terminada.jpg" alt="Vivienda terminada con pintura interior y exterior" style="width:100%; border-radius:12px;" />
+  </div>
+
+  <p><strong>Imágenes reales del proyecto en proceso y terminado.</strong></p>
+</section>
+
+<section>
+  <h2>Proyecto destacado: Remodelación y Construcción desde 0</h2>
+  <p>Proyecto integral que incluye demolición, construcción estructural, tabiquería, aislación térmica, instalaciones eléctricas y sanitarias, y terminaciones interiores completas.</p>
+
+  <div class="gallery">
+    <img src="remodelacion-obra-gruesa.jpg" alt="Estructura metálica y obra gruesa en proceso" style="width:100%; border-radius:12px;" />
+    <img src="remodelacion-metalcon-aislacion.jpg" alt="Tabiquería Metalcon con aislación térmica" style="width:100%; border-radius:12px;" />
+    <img src="remodelacion-interior-proceso.jpg" alt="Interior en proceso de construcción" style="width:100%; border-radius:12px;" />
+    <img src="remodelacion-interior-terminada.jpg" alt="Interior terminado con piso y pintura" style="width:100%; border-radius:12px;" />
+  </div>
+
+  <p><strong>Imágenes reales del proceso completo: desde estructura y aislación hasta terminaciones finales.</strong></p>
+</section>
+
+<section>
+  <h2>Proyecto destacado: Cierres Perimetrales</h2>
+  <p>Fabricación e instalación de cierres perimetrales en estructura metálica y revestimientos en madera o plancha metálica, ejecutados con soldadura profesional y terminaciones durables.</p>
+
+  <div class="gallery">
+    <img src="cierres-perimetrales-soldadura.jpg" alt="Soldadura y montaje de estructura metálica en cierre perimetral" style="width:100%; border-radius:12px;" />
+    <img src="cierres-perimetrales-madera.jpg" alt="Cierre perimetral en madera con estructura metálica" style="width:100%; border-radius:12px;" />
+    <img src="cierres-perimetrales-plancha.jpg" alt="Cierre perimetral en plancha metálica" style="width:100%; border-radius:12px;" />
+    <img src="cierres-perimetrales-exterior.jpg" alt="Vista exterior cierre perimetral terminado" style="width:100%; border-radius:12px;" />
+  </div>
+
+  <p><strong>Imágenes reales del proceso y resultado final del cierre perimetral.</strong></p>
+</section>
+
+<section>
+  <section>
+  <h2>¿Por qué CONSTRUYEYA?</h2>
+  <div class="why">
+    <div class="card">Más de 20 años de experiencia comprobable</div>
+    <div class="card">Obras reales, sin imágenes referenciales</div>
+    <div class="card">Atención directa del maestro responsable</div>
+    <div class="card">Compromiso con calidad, seguridad y plazos</div>
+  </div>
+</section>
+
+<section>
+  <div class="final">
+    <h2>Contacto</h2>
+    <p>Cuéntanos tu proyecto con total confianza. <strong>No existen proyectos imposibles</strong>: nos adaptamos a tus necesidades y a tu presupuesto, <strong>sin descuidar la calidad ni la seguridad del trabajo</strong>.</p>
+    <p>Mientras más detalles nos entregues, mejor podremos orientarte y proponerte una solución realista y bien ejecutada.</p>
+    <a class="cta" href="https://wa.me/56968578761" target="_blank">Cuéntanos tu proyecto por WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  <strong>CONSTRUYEYA</strong> · Construcción y Remodelación · Región Metropolitana<br>
+  <span>www.construyeya.cl</span>
+</footer>
+
+</body>
+</html>
